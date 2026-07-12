@@ -12,3 +12,13 @@ h1 , h2 {
 .centre-align {
     text-align: center;
 }
+
+/* Hiding scrollbar because we hate it */
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+}
